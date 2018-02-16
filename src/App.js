@@ -9,11 +9,11 @@ class App extends Component {
         <header className="App-header">
           <div className="content">
             <div className="link-bar">
-              <a href="mailto:jpapisan@gmail.com"><i className="fa fa-envelope-o App-header--icon">M</i></a>
-              <a href="https://github.com/papistan"><i className="fa fa-github App-header--icon">M</i></a>
-              <a href="https://www.linkedin.com/in/papisan"><i className="fa fa-linkedin App-header--icon">M</i></a>
-              <a href="https://medium.com/@jpapisan"><i className="fa fa-medium App-header--icon">M</i></a>
-              <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon">M</i></a>
+              <a href="mailto:jpapisan@gmail.com"><i className="fa fa-envelope-o App-header--icon"></i></a>
+              <a href="https://github.com/papistan"><i className="fa fa-github App-header--icon"></i></a>
+              <a href="https://www.linkedin.com/in/papisan"><i className="fa fa-linkedin App-header--icon"></i></a>
+              <a href="https://medium.com/@jpapisan"><i className="fa fa-medium App-header--icon"></i></a>
+              <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
             </div>
             <div className="App-header-title">
               <div className="Typist">
@@ -31,7 +31,7 @@ class App extends Component {
               </div>
             </div>
             <a>
-              <div class="Portfolio-down-arrow"></div>
+              <div className="Portfolio-down-arrow"></div>
             </a>
           </div>
         </header>

@@ -16,7 +16,7 @@ body, html {
 
 .App-header {
   display: flex;
-   background-image: url("https://cdn.makeuseof.com/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured-670x335.jpg");
+   background-image: url("https://images.unsplash.com/photo-1492305175278-3b3afaa2f31f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8d0daec628ad72fa598af06bea9f855b&auto=format&fit=crop&w=1017&q=80");
 
      /* Full height */
      height: 100%; 
