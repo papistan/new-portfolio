@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
+import Portfolio from './portfolio';
+import Skills from './skills';
 import './App.css';
 
 class App extends Component {
+  
+  
+  
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <div className="content">
             <div className="link-bar">
-              <a href="mailto:jpapisan@gmail.com"><i className="fa fa-envelope-o App-header--icon"></i></a>
-              <a href="https://github.com/papistan"><i className="fa fa-github App-header--icon"></i></a>
-              <a href="https://www.linkedin.com/in/papisan"><i className="fa fa-linkedin App-header--icon"></i></a>
-              <a href="https://medium.com/@jpapisan"><i className="fa fa-medium App-header--icon"></i></a>
-              <a href="" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
+              <a href="mailto:jpapisan@gmail.com" target="_blank"><i className="fa fa-envelope-o App-header--icon"></i></a>
+              <a href="https://github.com/papistan" target="_blank"><i className="fa fa-github App-header--icon"></i></a>
+              <a href="https://www.linkedin.com/in/papisan" target="_blank"><i className="fa fa-linkedin App-header--icon"></i></a>
+              <a href="https://medium.com/@jpapisan" target="_blank"><i className="fa fa-medium App-header--icon"></i></a>
+              <a href="../public/JayPapisanResume.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
             </div>
             <div className="App-header-title">
               <div className="Typist">
@@ -21,23 +26,21 @@ class App extends Component {
                 <span> Hi. I'm Jay</span>
                 <Typist.Backspace count={3} delay={300} />
                 <span>a Front-end developer</span>
-                <Typist.Backspace count={21} delay={200} />
-                <span>a JavaScript developer</span>
-                <Typist.Backspace count={22} delay={200} />
-                <span>a React developer</span>
-                <Typist.Backspace count={17} delay={200} />
-                <span>a human</span>
+                <Typist.Backspace count={19} delay={200} />
+                <span>JavaScript developer</span>
+                <Typist.Backspace count={20} delay={200} />
+                <span>React developer</span>
+                <Typist.Backspace count={15} delay={200} />
+                <span>fellow human</span>
               </Typist>
               </div>
             </div>
-            <a>
-              <div className="Portfolio-down-arrow"></div>
-            </a>
           </div>
         </header>
-        <p className="App-intro">
-          COOL STUFF
-        </p>
+        <Skills />
+        <Portfolio 
+          className="App-intro"
+        />
       </div>
     );
   }
