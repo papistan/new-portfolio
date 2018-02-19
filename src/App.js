@@ -14,11 +14,11 @@ class App extends Component {
         <header className="App-header">
           <div className="content">
             <div className="link-bar">
-              <a href="mailto:jpapisan@gmail.com" target="_blank"><i className="fa fa-envelope-o App-header--icon"></i></a>
-              <a href="https://github.com/papistan" target="_blank"><i className="fa fa-github App-header--icon"></i></a>
-              <a href="https://www.linkedin.com/in/papisan" target="_blank"><i className="fa fa-linkedin App-header--icon"></i></a>
-              <a href="https://medium.com/@jpapisan" target="_blank"><i className="fa fa-medium App-header--icon"></i></a>
-              <a href="../public/JayPapisanResume.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
+              <a href="mailto:jpapisan@gmail.com"><i className="fa fa-envelope-o App-header--icon"></i></a>
+              <a href="https://github.com/papistan" target="_blank" rel="noopener noreferrer"><i className="fa fa-github App-header--icon"></i></a>
+              <a href="https://www.linkedin.com/in/papisan" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin App-header--icon"></i></a>
+              <a href="https://medium.com/@jpapisan" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium App-header--icon"></i></a>
+              <a href="JayPapisanResume.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
             </div>
             <div className="App-header-title">
               <div className="Typist">
