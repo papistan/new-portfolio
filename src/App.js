@@ -26,12 +26,24 @@ class App extends Component {
                 <span> Hi. I'm Jay</span>
                 <Typist.Backspace count={3} delay={300} />
                 <span>a Front-end developer</span>
-                <Typist.Backspace count={19} delay={200} />
+                <Typist.Backspace count={19} delay={300} />
                 <span>JavaScript developer</span>
-                <Typist.Backspace count={20} delay={200} />
+                <Typist.Backspace count={20} delay={300} />
                 <span>React developer</span>
-                <Typist.Backspace count={15} delay={200} />
+                <Typist.Backspace count={15} delay={300} />
                 <span>fellow human</span>
+                <Typist.Backspace count={14} delay={300} />
+                <span>Jay</span>
+                <Typist.Backspace count={3} delay={300} />
+                <span>a Front-end developer</span>
+                <Typist.Backspace count={19} delay={300} />
+                <span>JavaScript developer</span>
+                <Typist.Backspace count={20} delay={300} />
+                <span>React developer</span>
+                <Typist.Backspace count={15} delay={300} />
+                <span>fellow human</span>
+                <Typist.Backspace count={14} delay={300} />
+                <span>Jay</span>
               </Typist>
               </div>
             </div>

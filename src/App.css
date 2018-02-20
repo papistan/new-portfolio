@@ -17,8 +17,10 @@ body, html {
 
 .App-header {
   display: flex;
-   background-image: url("https://images.unsplash.com/photo-1504573801800-9699d9a43182?ixlib=rb-0.3.5&s=381cd01a158d568d35599886b2d3605a&auto=format&fit=crop&w=1549&q=80");
-
+  background-color: rgb(20, 2, 68);
+   background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-0.3.5&s=cd0aec193345638fc873c681465b7778&auto=format&fit=crop&w=1050&q=80");
+   /* https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb */
+   /* https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&s=6c69c8f71a234515f807904ee955f4a7&auto=format&fit=crop&w=1078&q=80 */
      /* Full height */
      height: 100%; 
  
@@ -43,7 +45,8 @@ a {
 .App-header--icon {
   color: #fff;
   cursor: pointer;
-  margin: 15px 10px
+  margin: 15px 10px;
+  transition: font-size .4s ease;
 }
 
 .App-header--icon.fa {
@@ -51,7 +54,8 @@ a {
 }
 
 .App-header--icon:hover {
-  color: #19dcf5
+  color:  #19dcf5;
+  font-size: 65px;
 }
 
 .content {
@@ -141,7 +145,7 @@ a {
 .black-text {
   color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 3rem;
+  font-size: 3em;
 }
 .highlight { 
   /* must be <a> tag */
@@ -165,3 +169,88 @@ a {
   background-repeat: no-repeat;
 }
 
+.section {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.section2 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.title-items {
+  flex: 1;
+}
+
+.title-items h2 {
+  font-size: 0.7em;
+  margin: 0;
+}
+
+.title-items p {
+  margin: 0;
+  color: black;
+  font-size: 0.4em;
+}
+
+.gifs {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.gifs img {
+  flex: 1;
+  height: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .section {
+    margin-top: 0%;
+    padding-left: 3%;
+    margin-left: 10%;
+    border-left-color: #19dcf5;
+    border-left-style: outset;
+    border-left-width: 7px;
+    text-align: left;
+  }
+  .smaller-projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section2 {
+    flex: 1;
+    margin-top: 5%;
+    padding-left: 3%;
+    margin-left: 10%;
+    border-left-color: #19dcf5;
+    border-left-style: outset;
+    border-left-width: 7px;
+    text-align: left;
+  }
+  
+  .gifs {
+    flex-direction: row;
+  }
+}
+
+ .section2 img {
+    margin-top: 1%;
+    max-height: 200px;
+    max-width: 400px;
+  }
+.links {
+
+  font-size: 0.4em;
+  bottom: 0;
+}

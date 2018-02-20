@@ -8,7 +8,7 @@ class Skills extends Component {
             <div>
                 <div className="skills-background">
                    <div>
-                    <a className="skills-title black-text skills-highlight"> Skills at glance </a>
+                    <a className="skills-title black-text skills-highlight"> Skills at a Glance </a>
                     </div>
 						<div className="skills-icons">
 						    <span class="devicon-javascript-plain skills-icon"/>
