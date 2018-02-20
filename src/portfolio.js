@@ -15,9 +15,9 @@ class Portfolio extends Component {
                         <p>A tinder-style swipe card app to explore locations by neighborhood, build lists and share with friends. <br/>Built on React Native / Ruby on Rails with Yelp API. </p>
                     </div>
                     <div className="gifs">
-                        <span><img src="login.gif"/></span>
-                        <span><img src="swipe.gif"/></span>
-                        <span><img src="show.gif"/></span>
+                        <span><img src="https://github.com/papistan/portfolio/blob/master/portfolio/images/login.gif?raw=true" alt="login"/></span>
+                        <span><img src="https://github.com/papistan/portfolio/blob/master/portfolio/images/swipe.gif?raw=true" alt="swipe"/></span>
+                        <span><img src="https://github.com/papistan/portfolio/blob/master/portfolio/images/show.gif?raw=true" alt="show"/></span>
                     </div>
                     <div className="links">
                         <a className="highlight black-text" href="https://github.com/papistan/Scoutr/blob/master/README.md" target="_blank" rel="noopener noreferrer">Learn more</a>
@@ -31,7 +31,7 @@ class Portfolio extends Component {
                             <p>Open source (50+ contributors | 75+ forks) front end-focused trivia card app built in React / Redux / Node. <br/>Fully managed open source workflow (42 issues created, 120+ pull requests reviewed) </p>
                         </div>
                         <div className="gifs">
-                            <span><img src="frontendtrivia.png"/></span>
+                            <span><img src="frontendtrivia.png" alt="front end trivia"/></span>
                         </div>
                         <div className="links">
                             <span><a className="highlight black-text" href="http://www.frontendtrivia.com" target="_blank" rel="noopener noreferrer">Live |</a>
@@ -45,7 +45,7 @@ class Portfolio extends Component {
                             <p>Event search tool with Eventbrite's API built on React, Node, Webpack, and Sass </p>
                         </div>
                         <div className="gifs">
-                            <span><img src="event.png"/></span>
+                            <span><img src="event.png" alt="event brite"/></span>
                         </div>
                         <div className="links">
                             <span><a className="highlight black-text" href="https://radiant-savannah-62825.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live |</a>
@@ -59,7 +59,7 @@ class Portfolio extends Component {
                             <p>WINNER AngelHack Hackathon Sacramento 2017 for best use of Satori API </p>
                         </div>
                         <div className="gifs">
-                            <span><img src="satori.png"/></span>
+                            <span><img src="satori.png" alt="winner"/></span>
                         </div>
                         <div className="links">
                             <span><a className="highlight black-text" href="http://www.hackathon.io/projects/16197" target="_blank" rel="noopener noreferrer">Learn more</a></span>
@@ -72,7 +72,7 @@ class Portfolio extends Component {
                             <p>Alert contacts of your safety during earthquakes. Built on Ruby on Rails, Bootstrap, USGS API and Twilio API text-messaging service.</p>
                         </div>
                         <div className="gifs">
-                            <span><img src="safely.jpg"/></span>
+                            <span><img src="safely.jpg" alt="safely"/></span>
                         </div>
                         <div className="links">
                             <span><a className="highlight black-text" href="https://github.com/papistan/safe.ly/blob/master/README.md" target="_blank" rel="noopener noreferrer">Learn more</a></span>
