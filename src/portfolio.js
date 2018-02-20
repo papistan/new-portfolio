@@ -5,7 +5,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div>
+            <div className="portfolio-title">
                 <div>
                     <a className="highlight black-text"><strong>Portfolio</strong></a>
                 </div>
