@@ -30,7 +30,7 @@ class App extends Component {
                 <span>JavaScript developer</span>
                 <Typist.Backspace count={20} delay={300} />
                 <span>React developer</span>
-                <Typist.Backspace count={15} delay={300} />
+                <Typist.Backspace count={17} delay={300} />
                 <span>Jay</span>
                 <Typist.Backspace count={3} delay={300} />
                 <span>a Front-end developer</span>
@@ -38,7 +38,7 @@ class App extends Component {
                 <span>JavaScript developer</span>
                 <Typist.Backspace count={20} delay={300} />
                 <span>React developer</span>
-                <Typist.Backspace count={15} delay={300} />
+                <Typist.Backspace count={17} delay={300} />
                 <span>Jay</span>
               </Typist>
               </div>
