@@ -15,9 +15,7 @@ class Portfolio extends Component {
                         <p>A tinder-style swipe card app to explore locations by neighborhood, build lists and share with friends. <br/>Built on React Native / Ruby on Rails with Yelp API. </p>
                     </div>
                     <div className="gifs">
-                        <span><img src="https://github.com/papistan/portfolio/blob/master/portfolio/images/login.gif?raw=true" alt="login"/></span>
-                        <span><img src="https://github.com/papistan/portfolio/blob/master/portfolio/images/swipe.gif?raw=true" alt="swipe"/></span>
-                        <span><img src="https://github.com/papistan/portfolio/blob/master/portfolio/images/show.gif?raw=true" alt="show"/></span>
+                        <span><img src="scoutr.png" alt="login"/></span>
                     </div>
                     <div className="links">
                         <a className="highlight black-text" href="https://github.com/papistan/Scoutr/blob/master/README.md" target="_blank" rel="noopener noreferrer">Learn more</a>

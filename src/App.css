@@ -210,7 +210,7 @@ a {
 
 .gifs img {
   flex: 1;
-  height: 100%;
+  max-width: 400px;
 }
 
 .portfolio-title {
@@ -253,6 +253,10 @@ a {
   
   .gifs {
     flex-direction: row;
+  }
+
+  .gifs img {
+    max-width: 900px;
   }
 }
 
