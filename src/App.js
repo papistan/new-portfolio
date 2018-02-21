@@ -53,6 +53,14 @@ class App extends Component {
         <Portfolio 
           className="App-intro"
         />
+        <div className="link-bar2">
+          <a href="mailto:jpapisan@gmail.com"><i className="fa fa-envelope-o App-header--icon2"></i></a>
+          <a href="https://github.com/papistan" target="_blank" rel="noopener noreferrer"><i className="fa fa-github App-header--icon2"></i></a>
+          <a href="https://www.linkedin.com/in/papisan" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin App-header--icon2"></i></a>
+          <a href="https://medium.com/@jpapisan" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium App-header--icon2"></i></a>
+          <a href="JayPapisanResume.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon2"></i></a>
+      </div>
+        <p>&copy; Jay Papisan</p>
       </div>
     );
   }

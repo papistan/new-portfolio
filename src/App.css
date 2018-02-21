@@ -167,7 +167,6 @@ a {
 
 .break-portfolio { 
   height: 100px;
-  background-image: url("./single_wave.svg");
   background-repeat: no-repeat;
 }
 
@@ -231,14 +230,16 @@ a {
     text-align: left;
   }
   .smaller-projects {
-    display: flex;
-    flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .section2 {
     flex: 1;
+    -webkit-flex: 1 1 0;
     margin-top: 5%;
     padding-left: 3%;
     margin-left: 10%;
@@ -246,7 +247,8 @@ a {
     border-left-style: outset;
     border-left-width: 7px;
     text-align: left;
-    min-width: 30%;
+    max-width: 30%;
+    -webkit-flex: 1 1 30%;
   }
   
   .gifs {
@@ -263,4 +265,27 @@ a {
 
   font-size: 0.4em;
   bottom: 0;
+}
+
+.link-bar2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.App-header--icon2 {
+  color: #19dcf5;
+  cursor: pointer;
+  margin: 15px 10px;
+  transition: font-size .4s ease;
+}
+
+.App-header--icon2.fa {
+  font-size: 45px
+}
+
+.App-header--icon2:hover {
+  color:  black;
+  font-size: 65px;
 }

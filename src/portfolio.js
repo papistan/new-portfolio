@@ -79,9 +79,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
-            
                 <br/>
-                <div className="break-portfolio" />
             </div>
         )
     }
