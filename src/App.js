@@ -18,7 +18,7 @@ class App extends Component {
               <a href="https://github.com/papistan" target="_blank" rel="noopener noreferrer"><i className="fa fa-github App-header--icon"></i></a>
               <a href="https://www.linkedin.com/in/papisan" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin App-header--icon"></i></a>
               <a href="https://medium.com/@jpapisan" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium App-header--icon"></i></a>
-              <a href="JayPapisanResume.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
+              <a href="./JayPapisanResume.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o App-header--icon"></i></a>
             </div>
             <div className="App-header-title">
               <div className="Typist">
