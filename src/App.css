@@ -1,8 +1,8 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   padding: 0;
-  
 }
 
 #root {
@@ -18,18 +18,18 @@ body, html {
 .App-header {
   display: flex;
   background-color: rgb(20, 2, 68);
-   background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-0.3.5&s=cd0aec193345638fc873c681465b7778&auto=format&fit=crop&w=1050&q=80");
-   /* https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb */
-   /* https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&s=6c69c8f71a234515f807904ee955f4a7&auto=format&fit=crop&w=1078&q=80 */
-     /* Full height */
-     height: 100%; 
- 
-     /* Center and scale the image nicely */
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     text-align: center;
-     min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-0.3.5&s=cd0aec193345638fc873c681465b7778&auto=format&fit=crop&w=1050&q=80");
+  /* https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb */
+  /* https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&s=6c69c8f71a234515f807904ee955f4a7&auto=format&fit=crop&w=1078&q=80 */
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .link-bar {
@@ -39,22 +39,22 @@ body, html {
 
 a {
   color: white;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .App-header--icon {
   color: #fff;
   cursor: pointer;
   margin: 15px 10px;
-  transition: font-size .4s ease;
+  transition: font-size 0.4s ease;
 }
 
 .App-header--icon.fa {
-  font-size: 45px
+  font-size: 45px;
 }
 
 .App-header--icon:hover {
-  color:  #19dcf5;
+  color: #19dcf5;
   font-size: 65px;
 }
 
@@ -77,14 +77,15 @@ a {
 
 .Portfolio-down-arrow {
   bottom: 50px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .Typist {
   display: inline-block;
   font-size: 58px;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .App-title {
@@ -97,10 +98,13 @@ a {
 }
 
 @keyframes App-header--icon {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
- 
 
 /* Skills  */
 .skills-background {
@@ -111,13 +115,18 @@ a {
   padding-bottom: 5%;
 }
 
-.skills-highlight { 
+.skills-highlight {
   /* must be <a> tag */
-  transition: background-size .4s ease;
-  background: linear-gradient(to bottom, transparent 62%, rgba(0, 0, 0, 0.486) 0) center left/0% 75% no-repeat;
+  transition: background-size 0.4s ease;
+  background: linear-gradient(
+      to bottom,
+      transparent 62%,
+      rgba(0, 0, 0, 0.486) 0
+    )
+    center left/0% 75% no-repeat;
   padding: 0 6px 2px 6px;
   cursor: pointer;
-  letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
 }
 
 .skills-highlight:hover {
@@ -133,10 +142,8 @@ a {
 
 .skills-icons {
   -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   margin-top: 1%;
@@ -146,23 +153,48 @@ a {
   flex: 1;
   font-size: 110px;
   margin-top: 1%;
-  -webkit-flex: 1 1 30%;
 }
 
 /* Portfolio */
 
 .black-text {
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3em;
 }
-.highlight { 
+
+.grey-text {
+  color: #424141;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+}
+
+.App-header--icon3 {
+  color: #03a87c;
+  cursor: pointer;
+  margin: 15px 10px;
+  transition: font-size 0.4s ease;
+}
+
+.App-header--icon3.fa {
+  font-size: 35px;
+}
+
+.App-header--icon3:hover {
+  color: black;
+  font-size: 45px;
+}
+
+.highlight {
   /* must be <a> tag */
-  transition: background-size .4s ease;
-  background: linear-gradient(to bottom, transparent 62%, #19dcf5 0) center left/0% 75% no-repeat;
+  transition: background-size 0.4s ease;
+  background: linear-gradient(to bottom, transparent 62%, #19dcf5 0) center
+    left/0% 75% no-repeat;
   padding: 0 6px 2px 6px;
   cursor: pointer;
-  letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
 }
 
 .highlight:hover {
@@ -172,7 +204,7 @@ a {
   background-size: 80% 100%;
 }
 
-.break-portfolio { 
+.break-portfolio {
   height: 100px;
   background-repeat: no-repeat;
 }
@@ -221,7 +253,7 @@ a {
 }
 
 .portfolio-title {
-  padding-top: 7%;
+  padding-top: 3%;
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -243,7 +275,7 @@ a {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .section2 {
     flex: 1;
     -webkit-flex: 1 1 0;
@@ -257,7 +289,7 @@ a {
     max-width: 30%;
     -webkit-flex: 1 1 30%;
   }
-  
+
   .gifs {
     flex-direction: row;
   }
@@ -267,13 +299,12 @@ a {
   }
 }
 
- .section2 img {
-    margin-top: 1%;
-    max-height: 200px;
-    max-width: 400px;
-  }
+.section2 img {
+  margin-top: 1%;
+  max-height: 200px;
+  max-width: 400px;
+}
 .links {
-
   font-size: 0.4em;
   bottom: 0;
 }
@@ -283,20 +314,18 @@ a {
   justify-content: center;
 }
 
-
-
 .App-header--icon2 {
   color: #19dcf5;
   cursor: pointer;
   margin: 15px 10px;
-  transition: font-size .4s ease;
+  transition: font-size 0.4s ease;
 }
 
 .App-header--icon2.fa {
-  font-size: 45px
+  font-size: 45px;
 }
 
 .App-header--icon2:hover {
-  color:  black;
+  color: black;
   font-size: 65px;
 }
