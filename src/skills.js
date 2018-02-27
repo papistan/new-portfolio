@@ -20,43 +20,43 @@ class Skills extends Component {
               class="devicon-javascript-plain skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay=".5s"
+              data-wow-delay=".6s"
             />
             <span
               class="devicon-react-original-wordmark skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay=".6s"
+              data-wow-delay=".8s"
             />
             <span
               class="devicon-nodejs-plain-wordmark skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay=".7s"
+              data-wow-delay="1s"
             />
             <span
               class="devicon-ruby-plain-wordmark skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay=".8s"
+              data-wow-delay="1.2s"
             />
             <span
               class="devicon-rails-plain-wordmark skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay=".9s"
+              data-wow-delay="1.4s"
             />
             <span
               class="devicon-sass-original skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay="1s"
+              data-wow-delay="1.6s"
             />
             <span
               class="devicon-jasmine-plain-wordmark skills-icon wow flipInY"
               data-wow-iteration="1"
               data-wow-offset="150"
-              data-wow-delay="1.1s"
+              data-wow-delay="1.8s"
             />
           </div>
         </div>
