@@ -52,7 +52,7 @@ class App extends Component {
                 />
               </a>
               <a
-                href="./JayPapisanResume.pdf"
+                href="https://drive.google.com/file/d/1L6ooRfgBZ0yO-Ji2MKEUw0_Kq7I7uhpR/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
