@@ -20,44 +20,44 @@ class Skills extends Component {
               <span
                 class="devicon-javascript-plain skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
+                data-wow-offset="40"
                 data-wow-delay=".6s"
               />
               <span
                 class="devicon-react-original-wordmark skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
+                data-wow-offset="40"
                 data-wow-delay=".8s"
               />
               <span
                 class="devicon-nodejs-plain-wordmark skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
+                data-wow-offset="40"
                 data-wow-delay="1s"
               />
               <span
                 class="devicon-ruby-plain-wordmark skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
+                data-wow-offset="40"
                 data-wow-delay="1.2s"
               />
               <span
                 class="devicon-rails-plain-wordmark skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
-                data-wow-delay="1.4s"
+                data-wow-offset="40"
+                data-wow-delay="1.3s"
               />
               <span
                 class="devicon-sass-original skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
-                data-wow-delay="1.6s"
+                data-wow-offset="40"
+                data-wow-delay="1.4s"
               />
               <span
                 class="devicon-jasmine-plain-wordmark skills-icon wow flipInY"
                 data-wow-iteration="1"
-                data-wow-offset="100"
-                data-wow-delay="1.8s"
+                data-wow-offset="40"
+                data-wow-delay="1.5s"
               />
             </div>
           </div>

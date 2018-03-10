@@ -109,7 +109,7 @@ a {
 /* Skills  */
 .skills-background {
   z-index: -1000;
-  background: linear-gradient(160deg, #02ccba, #aa7ecd);
+  background: linear-gradient(160deg, #cc0261, black);
   -webkit-transform-origin: left bottom;
   transform-origin: left bottom;
   color: black;
