@@ -52,7 +52,7 @@ class App extends Component {
                 />
               </a>
               <a
-                href="https://drive.google.com/file/d/1L6ooRfgBZ0yO-Ji2MKEUw0_Kq7I7uhpR/view?usp=sharing"
+                href="https://github.com/papistan/currentResume/blob/master/JayPapisanResume2018.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -116,7 +116,7 @@ class App extends Component {
             <i className="fa fa-medium App-header--icon2" />
           </a>
           <a
-            href="JayPapisanResume.pdf"
+            href="https://github.com/papistan/currentResume/blob/master/JayPapisanResume2018.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
