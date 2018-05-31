@@ -228,6 +228,7 @@ class Portfolio extends Component {
           <div className="straight">
             <div className="medium-items">
               <p className="wow zoomIn medium-title" data-wow-offset="180">
+                <p><i className="fa fa-medium App-header--icon3" /></p>
                 Recent Medium Publications
               </p>
               <div
@@ -240,7 +241,7 @@ class Portfolio extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-medium App-header--icon3" />
+                  <i className="devicon-react-original App-header--icon6" />
                 </a>
                 <a
                   className="skills-highlight white-text"
@@ -261,7 +262,7 @@ class Portfolio extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-medium App-header--icon3" />
+                  <i className="devicon-react-original App-header--icon6" />
                 </a>
                 <a
                   className="skills-highlight white-text"
@@ -274,15 +275,15 @@ class Portfolio extends Component {
               </div>
               <div
                 className="links wow flipInX"
-                data-wow-offset="180"
-                data-wow-delay="1.1s"
+                data-wow-offset="160"
+                data-wow-delay="1s"
               >
                 <a
                   href="https://medium.com/@jpapisan"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-medium App-header--icon3" />
+                  <i className="devicon-sass-original App-header--icon6" />
                 </a>
                 <a
                   className="skills-highlight white-text"
@@ -295,7 +296,7 @@ class Portfolio extends Component {
               </div>
               <div
                 className="links wow flipInX"
-                data-wow-offset="180"
+                data-wow-offset="140"
                 data-wow-delay="1.1s"
               >
                 <a
@@ -303,7 +304,7 @@ class Portfolio extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-medium App-header--icon3" />
+                  <i className="devicon-react-original App-header--icon6" />
                 </a>
                 <a
                   className="skills-highlight white-text"
@@ -316,6 +317,11 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="profile">
+        <img className="profile-pic" src="https://media.licdn.com/dms/image/C4E03AQFrdeSou4meiw/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=ixzTUl0gt8n3VTrx5kslxLWRVgZST_ssIodGf84KB9g">
+        </img>
+        <p>Frontend role in East Bay or SF? Reach out below.</p>
         </div>
       </div>
     );

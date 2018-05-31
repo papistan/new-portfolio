@@ -15,7 +15,7 @@ class App extends Component {
                 <i
                   className="fa fa-envelope-o App-header--icon wow flipInY"
                   data-wow-iteration="1"
-                  data-wow-delay="1.1s"
+                  data-wow-delay="1.5s"
                 />
               </a>
               <a
@@ -26,7 +26,7 @@ class App extends Component {
                 <i
                   className="fa fa-github App-header--icon wow flipInY"
                   data-wow-iteration="1"
-                  data-wow-delay="1.5s"
+                  data-wow-delay="1.9s"
                 />
               </a>
               <a
@@ -37,7 +37,7 @@ class App extends Component {
                 <i
                   className="fa fa-linkedin App-header--icon wow flipInY"
                   data-wow-iteration="1"
-                  data-wow-delay="1.9s"
+                  data-wow-delay="2.3s"
                 />
               </a>
               <a
@@ -48,7 +48,7 @@ class App extends Component {
                 <i
                   className="fa fa-medium App-header--icon wow flipInY"
                   data-wow-iteration="1"
-                  data-wow-delay="2.3s"
+                  data-wow-delay="2.7s"
                 />
               </a>
               <a
@@ -59,14 +59,15 @@ class App extends Component {
                 <i
                   className="fa fa-file-pdf-o App-header--icon wow flipInY"
                   data-wow-iteration="1"
-                  data-wow-delay="2.7s"
+                  data-wow-delay="3.1s"
                 />
               </a>
             </div>
             <div className="App-header-title">
               <div className="Typist">
                 <Typist>
-                  <span> Hi. I'm Jay</span>
+                  <span> Hi. I'm </span>
+                  <span> Jay</span>
                   <Typist.Backspace count={3} delay={300} />
                   <span>a Front-end developer</span>
                   <Typist.Backspace count={19} delay={300} />
