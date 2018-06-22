@@ -14,6 +14,45 @@ class Portfolio extends Component {
             <a className="highlight black-text">Portfolio</a>
           </div>
           <div
+            className="section wow slideInLeft"
+            data-wow-iteration="1"
+            data-wow-offset="320"
+            data-wow-delay=".1s"
+          >
+            <div className="title-items black-text">
+              <h2>Webflix</h2>
+              <p>Neflix clone built in React</p>
+            </div>
+            <br />
+            <div className="gifs">
+              <span>
+                <img src="webflix.png" alt="webflix" />
+              </span>
+            </div>
+            <div
+              className="links wow flipInX"
+              data-wow-offset="40"
+              data-wow-delay=".1s"
+            >
+              <a
+                className="highlight black-text bold"
+                href="http://webflix.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live |
+              </a>
+              <a
+                className="highlight black-text bold"
+                href="https://github.com/papistan/eventbrite"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div
             className="section wow slideInRight"
             data-wow-iteration="1"
             data-wow-offset="320"
@@ -37,7 +76,7 @@ class Portfolio extends Component {
               data-wow-delay=".1s"
             >
               <a
-                className="highlight black-text"
+                className="highlight black-text bold"
                 href="http://app.taptrust.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,12 +108,12 @@ class Portfolio extends Component {
               data-wow-delay="1s"
             >
               <a
-                className="highlight black-text"
+                className="highlight black-text bold"
                 href="https://github.com/papistan/Scoutr/blob/master/README.md"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Learn more
+                Code
               </a>
             </div>
           </div>
@@ -101,7 +140,7 @@ class Portfolio extends Component {
               <div className="links">
                 <span>
                   <a
-                    className="highlight black-text"
+                    className="highlight black-text bold"
                     href="https://radiant-savannah-62825.herokuapp.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -109,12 +148,12 @@ class Portfolio extends Component {
                     Live |
                   </a>
                   <a
-                    className="highlight black-text"
+                    className="highlight black-text bold"
                     href="https://github.com/papistan/eventbrite"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Learn more
+                    Code
                   </a>
                 </span>
               </div>
@@ -142,7 +181,7 @@ class Portfolio extends Component {
               <div className="links">
                 <span>
                   <a
-                    className="highlight black-text"
+                    className="highlight black-text bold"
                     href="http://www.frontendtrivia.com"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -150,12 +189,12 @@ class Portfolio extends Component {
                     Live |
                   </a>
                   <a
-                    className="highlight black-text"
+                    className="highlight black-text bold"
                     href="https://github.com/papistan/FrontEndTrivia"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Learn more
+                    Code
                   </a>
                 </span>
               </div>
@@ -182,7 +221,7 @@ class Portfolio extends Component {
               <div className="links">
                 <span>
                   <a
-                    className="highlight black-text"
+                    className="highlight black-text bold"
                     href="http://www.hackathon.io/projects/16197"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -211,7 +250,7 @@ class Portfolio extends Component {
               <div className="links">
                 <span>
                   <a
-                    className="highlight black-text"
+                    className="highlight black-text bold"
                     href="https://github.com/papistan/safe.ly/blob/master/README.md"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -228,7 +267,9 @@ class Portfolio extends Component {
           <div className="straight">
             <div className="medium-items">
               <p className="wow zoomIn medium-title" data-wow-offset="180">
-                <p><i className="fa fa-medium App-header--icon3" /></p>
+                <p>
+                  <i className="fa fa-medium App-header--icon3" />
+                </p>
                 Recent Medium Publications
               </p>
               <div
@@ -319,9 +360,11 @@ class Portfolio extends Component {
           </div>
         </div>
         <div className="profile">
-        <img className="profile-pic" src="https://media.licdn.com/dms/image/C4E03AQFrdeSou4meiw/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=ixzTUl0gt8n3VTrx5kslxLWRVgZST_ssIodGf84KB9g">
-        </img>
-        <p>Frontend role in East Bay or SF? Reach out below.</p>
+          <img
+            className="profile-pic"
+            src="https://media.licdn.com/dms/image/C4E03AQFrdeSou4meiw/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=ixzTUl0gt8n3VTrx5kslxLWRVgZST_ssIodGf84KB9g"
+          />
+          <p>Frontend role in East Bay or SF? Reach out below.</p>
         </div>
       </div>
     );

@@ -63,6 +63,9 @@ a {
   width: 100%;
 }
 
+.bold {
+  font-weight: bold !important;
+}
 .App-header-title {
   bottom: 0;
   display: inline;
@@ -256,6 +259,7 @@ a {
 
 .title-items {
   flex: 1;
+  margin-bottom: 1vh;
 }
 
 .title-items h2 {
