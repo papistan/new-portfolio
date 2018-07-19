@@ -19,14 +19,16 @@ class Portfolio extends Component {
             data-wow-offset="320"
             data-wow-delay=".1s"
           >
+          
             <div className="title-items black-text">
-              <h2>Webflix</h2>
-              <p>Neflix clone built in React</p>
+              <h2>Electric Bike Booker</h2>
+              <p>Fullstack JavaScript - Enter your time, auto-book an ebike.</p>
+              <p>Frontend: React, React-Router, Sass.  Backend: Node, Express, Mongoose and MongoDB.</p>
             </div>
             <br />
             <div className="gifs">
               <span>
-                <img src="webflix.png" alt="webflix" />
+                <img src="ebike.png" alt="ebike" />
               </span>
             </div>
             <div
@@ -36,7 +38,7 @@ class Portfolio extends Component {
             >
               <a
                 className="highlight black-text bold"
-                href="http://webflix.surge.sh/"
+                href="http://ebike.surge.sh/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,7 +46,7 @@ class Portfolio extends Component {
               </a>
               <a
                 className="highlight black-text bold"
-                href="https://github.com/papistan/webflix"
+                href="https://github.com/papistan/booking-frontend"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -241,20 +243,28 @@ class Portfolio extends Component {
               data-wow-offset="380"
             >
               <div className="title-items black-text">
-                <h2>SAFE.LY</h2>
-                <p>Ruby on Rails, Bootstrap, USGS API and Twilio API.</p>
+                <h2>Webflix</h2>
+                <p>Neflix clone built in React</p>
               </div>
               <br />
               <div className="gifs">
                 <span>
-                  <img src="safely.jpg" alt="safely" />
+                  <img src="webflix.png" alt="safely" />
                 </span>
               </div>
               <div className="links">
                 <span>
                   <a
                     className="highlight black-text bold"
-                    href="https://github.com/papistan/safe.ly/blob/master/README.md"
+                    href="http://webflix.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live |
+                  </a>
+                  <a
+                    className="highlight black-text bold"
+                    href="https://github.com/papistan/webflix"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -359,6 +369,27 @@ class Portfolio extends Component {
                   Animate your React
                 </a>
               </div>
+              <div
+              className="links wow flipInX"
+              data-wow-offset="140"
+              data-wow-delay="1.1s"
+            >
+              <a
+                href="https://medium.com/@jpapisan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="devicon-sass-original App-header--icon6" />
+              </a>
+              <a
+                className="skills-highlight white-text"
+                href="https://codeburst.io/css-grid-in-3-mins-d6b8055f0c0f"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              CSS Grid in 3 mins
+              </a>
+            </div>
             </div>
           </div>
         </div>
