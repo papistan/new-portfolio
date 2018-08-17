@@ -19,11 +19,13 @@ class Portfolio extends Component {
             data-wow-offset="320"
             data-wow-delay=".1s"
           >
-          
             <div className="title-items black-text">
               <h2>Electric Bike Booker</h2>
               <p>Fullstack JavaScript - Enter your time, auto-book an ebike.</p>
-              <p>Frontend: React, React-Router, Sass.  Backend: Node, Express, Mongoose and MongoDB.</p>
+              <p>
+                Frontend: React, React-Router, Sass. Backend: Node, Express,
+                Mongoose and MongoDB.
+              </p>
             </div>
             <br />
             <div className="gifs">
@@ -370,33 +372,33 @@ class Portfolio extends Component {
                 </a>
               </div>
               <div
-              className="links wow flipInX"
-              data-wow-offset="140"
-              data-wow-delay="1.1s"
-            >
-              <a
-                href="https://medium.com/@jpapisan"
-                target="_blank"
-                rel="noopener noreferrer"
+                className="links wow flipInX"
+                data-wow-offset="140"
+                data-wow-delay="1.1s"
               >
-                <i className="devicon-sass-original App-header--icon6" />
-              </a>
-              <a
-                className="skills-highlight white-text"
-                href="https://codeburst.io/css-grid-in-3-mins-d6b8055f0c0f"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              CSS Grid in 3 mins
-              </a>
-            </div>
+                <a
+                  href="https://medium.com/@jpapisan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="devicon-sass-original App-header--icon6" />
+                </a>
+                <a
+                  className="skills-highlight white-text"
+                  href="https://codeburst.io/css-grid-in-3-mins-d6b8055f0c0f"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CSS Grid in 3 mins
+                </a>
+              </div>
             </div>
           </div>
         </div>
         <div className="profile">
           <img
             className="profile-pic"
-            src="https://media.licdn.com/dms/image/C4E03AQFrdeSou4meiw/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=ixzTUl0gt8n3VTrx5kslxLWRVgZST_ssIodGf84KB9g"
+            src="https://media.licdn.com/dms/image/C4E03AQFrdeSou4meiw/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=XCqdS9MTS3m5W9qRWh2NIn2ARw1Y7wgfByQenv5SoSk"
           />
           <p>Frontend role in East Bay or SF? Reach out below.</p>
         </div>
