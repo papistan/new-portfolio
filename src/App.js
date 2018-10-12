@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typist from "react-typist";
+import TextLoop from 'react-text-loop';
 import Portfolio from "./portfolio";
 import Skills from "./skills";
 import "./App.css";
@@ -66,24 +67,22 @@ class App extends Component {
             <div className="App-header-title">
               <div className="Typist">
                 <Typist>
-                  <span> Hi. I'm </span>
-                  <span> Jay</span>
-                  <Typist.Backspace count={3} delay={300} />
-                  <span>a Front-end developer</span>
-                  <Typist.Backspace count={19} delay={300} />
-                  <span>JavaScript developer</span>
-                  <Typist.Backspace count={20} delay={300} />
-                  <span>React developer</span>
-                  <Typist.Backspace count={17} delay={300} />
-                  <span>Jay</span>
-                  <Typist.Backspace count={3} delay={300} />
-                  <span>a Front-end developer</span>
-                  <Typist.Backspace count={19} delay={300} />
-                  <span>JavaScript developer</span>
-                  <Typist.Backspace count={20} delay={300} />
-                  <span>React developer</span>
-                  <Typist.Backspace count={17} delay={300} />
-                  <span>Jay</span>
+                  <span>Hi. I'm Jay. I'm a </span>
+                  <TextLoop
+                    children={[
+                      " ",
+                      " Frontend",
+                      " JavaScript",
+                      " React",
+                      "Node",
+                      "CSS",
+                      "HTML",
+                      "?"
+                    ]}
+                    speed={2000}
+                    springConfig={{ stiffness: 340, damping: 30 }}
+                  />
+                  <span> Developer</span>
                 </Typist>
               </div>
             </div>

@@ -48,7 +48,7 @@ class Skills extends Component {
                 data-wow-delay="1.3s"
               />
               <span
-                class="devicon-rails-plain-wordmark skills-icon wow flipInY"
+                class="devicon-css3-plain-wordmark skills-icon wow flipInY"
                 data-wow-iteration="1"
                 data-wow-offset="40"
                 data-wow-delay="1.4s"

@@ -16,21 +16,20 @@ class Portfolio extends Component {
           <div
             className="section wow slideInLeft"
             data-wow-iteration="1"
-            data-wow-offset="320"
+            data-wow-offset="220"
             data-wow-delay=".1s"
           >
             <div className="title-items black-text">
-              <h2>Electric Bike Booker</h2>
-              <p>Fullstack JavaScript - Enter your time, auto-book an ebike.</p>
+              <h2>Opionato Fertility Quiz</h2>
+              <p>Custom fertility quiz results and recommendations</p>
               <p>
-                Frontend: React, React-Router, Sass. Backend: Node, Express,
-                Mongoose and MongoDB.
+                Client project built in React
               </p>
             </div>
             <br />
             <div className="gifs">
               <span>
-                <img src="ebike.png" alt="ebike" />
+                <img src="opionato.png" alt="survey" />
               </span>
             </div>
             <div
@@ -40,7 +39,7 @@ class Portfolio extends Component {
             >
               <a
                 className="highlight black-text bold"
-                href="http://ebike.surge.sh/"
+                href="opionato.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,7 +47,7 @@ class Portfolio extends Component {
               </a>
               <a
                 className="highlight black-text bold"
-                href="https://github.com/papistan/booking-frontend"
+                href="https://github.com/papistan/survey-results"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +61,7 @@ class Portfolio extends Component {
           <div
             className="section wow slideInRight"
             data-wow-iteration="1"
-            data-wow-offset="320"
+            data-wow-offset="220"
             data-wow-delay=".1s"
           >
             <div className="title-items black-text">
@@ -84,7 +83,7 @@ class Portfolio extends Component {
             >
               <a
                 className="highlight black-text bold"
-                href="http://app.taptrust.com/"
+                href="taptrust.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -96,7 +95,7 @@ class Portfolio extends Component {
           <div
             className="section wow slideInLeft"
             data-wow-iteration="1"
-            data-wow-offset="250"
+            data-wow-offset="150"
             data-wow-delay=".2s"
           >
             <div className="title-items black-text">
@@ -129,7 +128,7 @@ class Portfolio extends Component {
             <div
               className="section2 wow slideInLeft"
               data-wow-iteration="1"
-              data-wow-offset="380"
+              data-wow-offset="180"
             >
               <div className="title-items black-text">
                 <h2>Event Search</h2>
@@ -169,7 +168,7 @@ class Portfolio extends Component {
             <div
               className="section2 wow slideInRight"
               data-wow-iteration="1"
-              data-wow-offset="380"
+              data-wow-offset="180"
             >
               <div className="title-items black-text">
                 <h2>FrontEndTrivia.com</h2>
@@ -210,7 +209,7 @@ class Portfolio extends Component {
             <div
               className="section2 wow slideInLeft"
               data-wow-iteration="1"
-              data-wow-offset="380"
+              data-wow-offset="180"
             >
               <div className="title-items black-text">
                 <h2>First Prize - AngelHack Hackathon</h2>
@@ -242,7 +241,7 @@ class Portfolio extends Component {
             <div
               className="section2 wow slideInRight"
               data-wow-iteration="1"
-              data-wow-offset="380"
+              data-wow-offset="180"
             >
               <div className="title-items black-text">
                 <h2>Webflix</h2>
@@ -400,7 +399,6 @@ class Portfolio extends Component {
             className="profile-pic"
             src="https://media.licdn.com/dms/image/C4E03AQFrdeSou4meiw/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=XCqdS9MTS3m5W9qRWh2NIn2ARw1Y7wgfByQenv5SoSk"
           />
-          <p>Frontend role in East Bay or SF? Reach out below.</p>
         </div>
       </div>
     );
